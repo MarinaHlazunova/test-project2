@@ -1,0 +1,31 @@
+body {
+  box-sizing: border-box;
+  width: 1920px;
+}
+* {
+  padding: 0; /*****внутрішній відступ*****/
+  margin: 0; /*****зовнішній відступ*****/  
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.header{
+  background: #1F2235;
+  width: 1920;
+  height: 900;
+} 
+
+.header ul li{
+  display: inline;
+  margin-left: 3px ;
+  padding: 3px;
+  border-bottom:0;
+}
+.colorhome{
+  color: #FE461C;
+}
+.download-link {
+  background-color: #FE461C;
+  height: 50;
+  width: 152;
+
+}
