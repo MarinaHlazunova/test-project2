@@ -27,6 +27,16 @@ body {
   background-color: #FE461C;
   height: 50;
   width: 152;
-  border-radius: 25px;
+  border-radius: 25px 25px 25px 25px;
   background:#FE461C
 }
+.banner{
+  background:#1F2235;
+  font-family: outfit;
+}
+.conveniently{
+  font-size: 16px;
+  font-family:Public Sans;
+
+}
+
