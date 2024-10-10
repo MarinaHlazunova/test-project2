@@ -10,34 +10,34 @@ body {
 }
 .header{
   background: #1F2235;
-  width: 1920;
-  height: 900;
   display: flex;
+  padding: 20px 0px;
+  justify-content: center;
 } 
 
 .header ul li{
   display: inline;
   margin-left: 3px ;
   padding: 3px;
-  border-bottom:0;
+  border-top:0;
 }
 .colorhome{
   color: #FE461C;
 }
 .download-link {
   background-color: #FE461C;
-  height: 50;
-  width: 152;
-  border-radius: 25px 25px 25px 25px;
-  background:#FE461C
+  padding: 10px 70px;
+  margin-left: 15px;
+  border-radius: 5px 5px 5px 5px;
+  background:#FE461C;
 }
 .banner{
   background:#1F2235;
-  font-family: outfit;
+  font-family:;
 }
 .conveniently{
   font-size: 16px;
-  font-family:Public Sans;
+  font-family:;
 
 }
 
