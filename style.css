@@ -9,10 +9,10 @@ body {
   text-decoration: none;
 }
 .header{
-  background: #1F2235;
+  background:#24263B;
   display: flex;
   padding: 20px 0px;
-  justify-content: center;
+  justify-content: center; 
 } 
 
 .header ul li{
@@ -31,13 +31,24 @@ body {
   border-radius: 5px 5px 5px 5px;
   background:#FE461C;
 }
+.social{
+  background:#24263B;
+  text-align:left;
+  padding: 50px;
+}
+.li{
+  background-color:rgb(255, 255, 255)
+}
 .banner{
   background:#1F2235;
-  font-family:;
+  text-align: center;
 }
 .conveniently{
   font-size: 16px;
-  font-family:;
-
+}
+.portfolio{
+width: 654px;
+height: 340px;
+background:#1F2235;
 }
 
