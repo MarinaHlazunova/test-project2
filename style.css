@@ -31,13 +31,31 @@ body {
   border-radius: 5px 5px 5px 5px;
   background:#FE461C;
 }
-.social{
+/*.social{
   background:#24263B;
   text-align:left;
-  padding: 50px;
+  padding: 20px;
+  margine::shadow
+}*/
+.Li{
+  background:#24263B;
+  padding:5px 5px 5px 5px;
+  margin-left: 20px;
+  margin-top: 5px;
+  height: 5px;
 }
-.li{
-  background-color:rgb(255, 255, 255)
+.In{
+  background:#24263B;
+  padding:5px 5px 5px 5px;
+  margin-left: 20px;
+  margin-top: 5px;
+  height: 5px;
+}
+.Be{
+  background:#24263B;
+  padding:5px 5px 5px 5px;
+  margin-left: 20px;
+  margin-top: 5px;
 }
 .banner{
   background:#1F2235;
