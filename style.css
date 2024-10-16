@@ -31,24 +31,28 @@ body {
   border-radius: 5px 5px 5px 5px;
   background:#FE461C;
 }
-/*.social{
-  background:#24263B;
-  text-align:left;
-  padding: 20px;
-  margine::shadow
-}*/
+.social{
+  position: absolute;
+  padding-left: 50px;
+  margin-top: 5px;
+}
 .button{
   background-color:#24263B;
   background:#24263B;
   text-align: center;
   border-radius: 5px 5px 5px 5px;
+  top: 50px;
+  box-shadow: 0px 0px 2px 2px rgb(rgb(3, 0, 0), green, blue);
+  padding: 15px;
+  min-height: auto;
+  min-width: auto;
 }
-.in{
+/*.in{
   margin: 5px;
   padding-left: 5px;
   background-color:#24263B;
 }
-.ins{
+/*.ins{
   width: 50px;
   height: 50px;
 }
