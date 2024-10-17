@@ -1,6 +1,6 @@
 body {
   box-sizing: border-box;
-  width: 1920px;
+  background:#1F2235;
 }
 * {
   padding: 0; /*****внутрішній відступ*****/
@@ -8,19 +8,21 @@ body {
   color: #FFFFFF;
   text-decoration: none;
 }
-.header{
-  background:#24263B;
+.header {
   display: flex;
   padding: 20px 0px;
   justify-content: center; 
+  align-items: center;
 } 
-
-.header ul li{
+.download-link:hover{
+  background:#24263B
+}
+.menu-item{
   display: inline;
   margin-left: 3px ;
   padding: 3px;
-  border-top:0;
 }
+
 .colorhome{
   color: #FE461C;
 }
@@ -31,12 +33,25 @@ body {
   border-radius: 5px 5px 5px 5px;
   background:#FE461C;
 }
-.social{
-  position: absolute;
-  padding-left: 50px;
-  margin-top: 5px;
+.social-icon{
+  background-color:#24263B;
+  display: flex;
+  align-items:center;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  align-self: center;
+  padding: 14px;
+  margin-bottom: 15px;
+  box-sizing:border-box;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0px 0px 2px 2px black;
 }
-.button{
+.social-icon:hover{
+  background:#1F2235;
+}
+
+  .button{
   background-color:#24263B;
   background:#24263B;
   text-align: center;
@@ -44,31 +59,13 @@ body {
   top: 50px;
   box-shadow: 0px 0px 2px 2px rgb(rgb(3, 0, 0), green, blue);
   padding: 15px;
-  min-height: auto;
-  min-width: auto;
 }
-/*.in{
-  margin: 5px;
-  padding-left: 5px;
-  background-color:#24263B;
+.banner-container{
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+  justify-content: center;
 }
-/*.ins{
-  width: 50px;
-  height: 50px;
-}
-/*.ins{
-  background:#24263B;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-}
-.Be{
-  background:#24263B;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-}
-  */
 .banner{
   background:#1F2235;
   text-align: center;
@@ -78,7 +75,12 @@ body {
 }
 .portfolio{
 width: 654px;
-height: 340px;
 background:#1F2235;
 }
+position:relative;
+
+
+position:absolute;
+
+
 
