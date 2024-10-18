@@ -14,6 +14,7 @@ body {
   padding: 20px 0px;
   justify-content: center; 
   align-items: center;
+  margin-top: 22px;
 } 
 .download-link:hover{
   background:#24263B
@@ -69,6 +70,7 @@ body {
   display: flex;
   max-width: 1440px;
   margin: 0 auto;
+  margin-top: 410px;
   justify-content: center;
 }
 .banner{
@@ -89,6 +91,11 @@ margin-left: 203px;
   margin-right: 202px;
   max-width: 783px;
   max-height: 634;
+}
+.rondo{
+  max-width: 634px;
+  max-height: 634px;
+
 }
 position:relative;
 
