@@ -88,34 +88,36 @@ max-height: 340px;
 background:#1F2235;
 margin-left: 300px;
 margin-top: 263px;
+position:relative;
 }
-.rondo-pictures{
-  margin-right: 202px;
-  max-width: 783px;
-  max-height: 634;
+h1{
+  font-size: 64px;
 }
-.rondo{
-  max-width: 634px;
-  max-height: 634px;
+h3{
+  font-size: 16px;
 }
+
 .figma{
-  box-sizing:80px;
-  background:rgb(13, 13, 15);
+  width: 35px;
+  height: 52.5px;
+  background-size: 80px 80px ;
+  background-color: rgb(13, 13, 15);
+  border: radius 5px 5px 5px 5px;
+  size: 35px 52.5px;
 }
 .Xd{
-  box-sizing:80px;
-  background:rgb(13, 13, 15);
+  background-size: 80px 80px ;
+  background-color: rgb(13, 13, 15);
 }
 .ruby{
   box-sizing:80px;
   background:rgb(13, 13, 15);
 }
 .Photoshop{
-  size: 11px 40px;
-  box-sizing:80px;
-  background:rgb(13, 13, 15);
+  background-size: 80px 80px ;
+  background-color: rgb(13, 13, 15);
 }
-position:relative;
+
 
 
 position:absolute;
