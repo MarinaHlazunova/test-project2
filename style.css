@@ -27,7 +27,6 @@ body {
 .nav{
   margin-left: 335px;
 }
-
 .colorhome{
   color: #FE461C;
 }
@@ -56,7 +55,7 @@ body {
 .social-icon:hover{
   background:#1F2235;
 }
-
+/*
 .button{
   background-color:#24263B;
   background:#24263B;
@@ -65,7 +64,7 @@ body {
   top: 50px;
   box-shadow: 0px 0px 2px 2px rgb(rgb(3, 0, 0), green, blue);
   padding: 15px;
-}
+}*/
 .banner-container{
   display: flex;
   max-width: 1440px;
@@ -96,10 +95,9 @@ h1{
 h3{
   font-size: 16px;
 }
-.rondo{
-  position: relative;
-}
-position:absolute;
 
+.rondo{
+position:relative;
+}
 
 
