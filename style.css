@@ -96,31 +96,9 @@ h1{
 h3{
   font-size: 16px;
 }
-
-.figma{
-  background-size:80px 80px;
-  background-color: rgb(13, 13, 15);
-  border-radius: 8px 8px 8px 8px;
+.rondo{
+  position: relative;
 }
-
-.Xd{
-  box-sizing: 80px 80px ;
-  background-color: rgb(13, 13, 15);
-  border-radius: 8px 8px 8px 8px;
-}
-.ruby{
-  box-sizing:80px;
-  background:rgb(13, 13, 15);
-  border-radius: 8px 8px 8px 8px;
-}
-.Photoshop{
-  box-sizing: 80px 80px ;
-  background-color: rgb(13, 13, 15);
-  border-radius: 8px 8px 8px 8px;
-}
-
-
-
 position:absolute;
 
 
