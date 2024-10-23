@@ -15,6 +15,7 @@ body {
   justify-content: center; 
   align-items: center;
   margin-top: 22px;
+  font-size: 16px;
 } 
 .download-link:hover{
   background:#24263B
@@ -85,9 +86,10 @@ position:relative;
 max-width: 654px;
 max-height: 340px;
 background:#1F2235;
-margin-left: 300px;
-margin-top: 263px;
-position:relative;
+margin-left: 50px;
+/*margin-top: 263px;*/
+text-align: left;
+z-index: auto;
 }
 h1{
   font-size: 64px;
@@ -95,9 +97,25 @@ h1{
 h3{
   font-size: 16px;
 }
+.portfolio-button{
+  display: inline;
+  margin-top: 36px;
+  
+}
+.hire-me {
+  background-color: #FE461C;
+  padding: 10px 70px;
+  border-radius: 5px 5px 5px 5px;
+  background:#FE461C;
+}
+.download-cv{
+
+}
+
 
 .rondo{
-position:relative;
+  position: relative;
+ 
 }
 
 
