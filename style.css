@@ -11,11 +11,11 @@ body {
 .header {
   max-width: 1920px;
   display: flex;
+  margin: 0 auto;
   padding: 20px 0px;
   justify-content: center; 
   align-items: center;
   margin-top: 22px;
-  font-size: 16px;
 } 
 .download-link:hover{
   background:#24263B
@@ -53,25 +53,26 @@ body {
   border-radius: 5px 5px 5px 5px;
   box-shadow: 0px 0px 2px 2px black;
 }
+.social{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+}
 .social-icon:hover{
   background:#1F2235;
 }
-/*
-.button{
-  background-color:#24263B;
-  background:#24263B;
-  text-align: center;
-  border-radius: 5px 5px 5px 5px;
-  top: 50px;
-  box-shadow: 0px 0px 2px 2px rgb(rgb(3, 0, 0), green, blue);
-  padding: 15px;
-}*/
+element.style{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+}
 .banner-container{
   display: flex;
   max-width: 1440px;
   margin: 0 auto;
-  margin-top: 410px;
-  margin-left: 47px;
+  margin-top: 100px;
   justify-content: center;
 }
 .banner{
@@ -82,14 +83,11 @@ body {
   font-size: 16px;
 }
 .portfolio{
-position:relative;
-max-width: 654px;
-max-height: 340px;
+display: flex;
 background:#1F2235;
-margin-left: 50px;
-/*margin-top: 263px;*/
-text-align: left;
-z-index: auto;
+justify-content: center;
+flex-direction: column;
+margin-left: 200px;
 }
 h1{
   font-size: 64px;
@@ -100,7 +98,6 @@ h3{
 .portfolio-button{
   display: inline;
   margin-top: 36px;
-  
 }
 .hire-me {
   background-color: #FE461C;
@@ -109,13 +106,19 @@ h3{
   background:#FE461C;
 }
 .download-cv{
-
+  border: 2px #FFFFFF;
+  border-radius: 5px 5px 5px 5px;
+  padding: 10px 70px;
+  margin-left: 3px;
+  background:#24263B;
+  font-size: 16px;
 }
-
-
+.download-cv:hover{
+  color:#1F2235;
+}
 .rondo{
-  position: relative;
- 
+  position: relative; 
 }
+
 
 
