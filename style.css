@@ -71,6 +71,7 @@ element.style{
 .banner-container{
   display: flex;
   max-width: 1440px;
+  max-height: 900px;
   margin: 0 auto;
   margin-top: 100px;
   justify-content: center;
@@ -96,20 +97,19 @@ h3{
   font-size: 16px;
 }
 .portfolio-button{
-  display: inline;
   margin-top: 36px;
 }
 .hire-me {
-  background-color: #FE461C;
-  padding: 10px 70px;
+  padding: 17px 48px;
   border-radius: 5px 5px 5px 5px;
   background:#FE461C;
+  font-size: 16px;
 }
 .download-cv{
-  border: 2px #FFFFFF;
+  border:2px solid #FFFFFF;
   border-radius: 5px 5px 5px 5px;
-  padding: 10px 70px;
-  margin-left: 3px;
+  padding: 15px 28px;
+  margin-left: 15px;
   background:#24263B;
   font-size: 16px;
 }
@@ -119,6 +119,23 @@ h3{
 .rondo{
   position: relative; 
 }
+.small-rondo{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: -500px;
+  z-index: 1;  
+}
 
+.section-2{
+  max-height: 900px;
+  background-color:rgb(36, 38, 59)  ;
+  display: flex;
+}
+.about-me{
+  margin-top: 100px;
+  background-color:rgb(36, 38, 59);
+  position: relative;
+  margin-left: 200px; 
+}
 
 
