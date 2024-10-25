@@ -75,6 +75,7 @@ element.style{
   margin: 0 auto;
   margin-top: 100px;
   justify-content: center;
+  padding-bottom: 150px;
 }
 .banner{
   background:#1F2235;
@@ -97,6 +98,7 @@ h3{
   font-size: 16px;
 }
 .portfolio-button{
+  display: flex;
   margin-top: 36px;
 }
 .hire-me {
@@ -127,15 +129,13 @@ h3{
 }
 
 .section-2{
-  max-height: 900px;
-  background-color:rgb(36, 38, 59)  ;
-  display: flex;
+   background-color:rgb(36, 38, 59);
 }
 .about-me{
-  margin-top: 100px;
-  background-color:rgb(36, 38, 59);
-  position: relative;
-  margin-left: 200px; 
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  align-items:center;
 }
 .about-me-text{
   background-color:#24263B;
