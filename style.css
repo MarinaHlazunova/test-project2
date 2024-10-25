@@ -88,10 +88,10 @@ display: flex;
 background:#1F2235;
 justify-content: center;
 flex-direction: column;
-margin-left: 200px;
+margin-left: 150px;
 }
 h1{
-  font-size: 64px;
+  font-size: 50px;
 }
 h3{
   font-size: 16px;
@@ -121,8 +121,8 @@ h3{
 }
 .small-rondo{
   position: absolute;
-  margin-top: 50px;
-  margin-left: -500px;
+  margin-top: 60px;
+  margin-left: -550px;
   z-index: 1;  
 }
 
@@ -136,6 +136,24 @@ h3{
   background-color:rgb(36, 38, 59);
   position: relative;
   margin-left: 200px; 
+}
+.about-me-text{
+  background-color:#24263B;
+  display: flex;
+  align-items:center;
+  text-align: center;
+  align-self: center;
+  padding: 14px;
+  box-sizing:border-box;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0px 0px 2px 2px black;
+}
+.Deo{
+  margin-top: 100px ;
+  margin-left: 50px;
+  position: relative;
+  max-width: 520px;
+
 }
 
 
