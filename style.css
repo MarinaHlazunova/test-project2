@@ -130,21 +130,25 @@ h3{
 
 .section-2{
    background-color:rgb(36, 38, 59);
-   display: inline-flex;
+   display:flex;
   }
 .about-me{
-  margin: 0 auto;
-  max-width: 1200px;
+  flex-direction: column;
+  justify-content:center;
+  position: relative;
+}
+.about-me-pictures{
+  margin-left: 50px;
   display: flex;
   align-items:center;
   margin-top: 100px;
 }
-.about-me:hover{
+.about-me-button:hover{
   background:#24263B;
 }
-.about-me-text{
+.about-me-button{
+  margin-top: 100px;
   background-color:#24263B;
-  display: flex;
   align-items:center;
   text-align: center;
   padding: 14px;
@@ -153,11 +157,14 @@ h3{
   box-shadow: 0px 0px 2px 2px black;
   font-size: 16px;
 }
-.Deo{
-  margin-top: 100px ;
-  margin-left: 50px;
-  position: relative;
-  max-width: 520px;
+.download-link-1{
+  background-color: #FE461C;
+  padding: 10px 50px;
+  margin-left: 15px;
+  border-radius: 5px 5px 5px 5px;
+  background:#FE461C;
+  margin-right: 300px;
+  display: flex;
 }
 
 
