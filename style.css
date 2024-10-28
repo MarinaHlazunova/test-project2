@@ -139,6 +139,9 @@ h3{
   align-items:center;
   margin-top: 100px;
 }
+.about-me:hover{
+  background:#24263B;
+}
 .about-me-text{
   background-color:#24263B;
   display: flex;
@@ -155,7 +158,6 @@ h3{
   margin-left: 50px;
   position: relative;
   max-width: 520px;
-
 }
 
 
