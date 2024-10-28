@@ -130,23 +130,25 @@ h3{
 
 .section-2{
    background-color:rgb(36, 38, 59);
-}
+   display: inline-flex;
+  }
 .about-me{
   margin: 0 auto;
   max-width: 1200px;
   display: flex;
   align-items:center;
+  margin-top: 100px;
 }
 .about-me-text{
   background-color:#24263B;
   display: flex;
   align-items:center;
   text-align: center;
-  align-self: center;
   padding: 14px;
   box-sizing:border-box;
   border-radius: 5px 5px 5px 5px;
   box-shadow: 0px 0px 2px 2px black;
+  font-size: 16px;
 }
 .Deo{
   margin-top: 100px ;
