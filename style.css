@@ -158,8 +158,10 @@ h3{
   border-radius: 5px 5px 5px 5px;
   box-shadow: 0px 0px 2px 2px black;
   font-size: 16px;
+  flex-direction: column;
 }
 .about-me-text{
+  flex-direction: column;
   margin-top: 40px 0px;
 }
 .download-link-1{
