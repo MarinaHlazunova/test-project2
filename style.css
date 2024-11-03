@@ -110,6 +110,9 @@ h3{
   background:#FE461C;
   font-size: 16px;
 }
+.hire-me:hover{
+  color:#1F2235;
+}
 .download-cv{
   border:2px solid #FFFFFF;
   border-radius: 5px 5px 5px 5px;
@@ -135,7 +138,7 @@ h3{
    background-color:rgb(36, 38, 59);
    display:flex;
   }
-.about-me{
+/*.about-me{
   display: flex;
   justify-content:center;
   align-items:center;
@@ -145,8 +148,10 @@ h3{
   margin-top: 100px;
   padding-bottom: 150px;
 }
+*/
+
 .about-me-pictures{
-  margin-left: 50px;
+  margin-left: 100px;
   display: flex;
   align-items:center;
   margin-top: 100px;
@@ -155,14 +160,11 @@ h3{
 .about-me-button{
   margin-top: 50px;
   background-color:#24263B;
-  align-items:center;
-  text-align: center;
-  padding: 14px;
+  padding: 14px 25px;
   box-sizing:border-box;
   border-radius: 5px 5px 5px 5px;
   box-shadow: 0px 0px 2px 2px black;
   font-size: 16px;
-  flex-direction: column;
 }
 .about-me-button:hover{
   background:#1F2235;
@@ -172,15 +174,13 @@ h3{
   margin-top: 50px 0px;
   max-width: 550px;
 }
-.download-link-1{
+.download-link-2{
   margin-top: 50px;
   padding: 10px 50px;
-  margin-left: 15px;
   border-radius: 5px 5px 5px 5px;
   background:#FE461C;
-  margin-right: 300px;
 }
-.download-link-1:hover{
+.download-link-2:hover{
   background:#24263B
 }
 
@@ -196,6 +196,22 @@ table{
   align-items:center;
   margin-top: 100px;
 }
+
+.portfolio-button-2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  background-color:#1F2235;
+  padding: 14px 25px;
+  box-sizing:border-box;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0px 0px 2px 2px black;
+  font-size: 16px; 
+}
+.portfolio-button-2:hover{
+  background:#24263B;
+}
 .portfolio-text{
   justify-content:center;
   align-items:center;
@@ -205,24 +221,6 @@ table{
   margin-top: 100px;
   padding-bottom: 150px;
 }
-.portfolio-button-2{
-  text-align: center;
-  align-items:center;
-  justify-content: center;
-  margin-top: 500px;
-  background-color:#1F2235;
-  padding: 14px;
-  box-sizing:border-box;
-  border-radius: 5px 5px 5px 5px;
-  box-shadow: 0px 0px 2px 2px black;
-  font-size: 16px;
-  flex-direction: column;  
-}
-.portfolio-button-2:hover{
-  background:#24263B;
-}
-
-
 .header-section-3 {
   max-width: 1920px;
   margin: 0 auto;
@@ -253,21 +251,29 @@ table{
 }
 .section-4{
   background-color:rgb(36, 38, 59);
-  display:flex;
- }
- .portfolio-button-4{
+
+}
+ .section-4-details{
+  display: flex;
+  margin-top: 50px;
   text-align: center;
-  align-items:center;
   justify-content: center;
-  margin-top: 500px;
+ }
+ .button-section-4{
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
   background-color:#1F2235;
   padding: 14px;
   box-sizing:border-box;
   border-radius: 5px 5px 5px 5px;
   box-shadow: 0px 0px 2px 2px black;
   font-size: 16px;
-  flex-direction: column;  
 }
-.portfolio-button-2:hover{
+.button-section-4:hover{
   background:#24263B;
+}
+.out-work-services{
+  margin-top: 100px;
+  text-align: center;
 }
