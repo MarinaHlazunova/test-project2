@@ -276,7 +276,7 @@ table{
   align-items: center;
 }
 .section-1-in-section-4{
-  max-width: 250px;
+  max-width: 200px;
   max-height: auto;
   background-color:#1F2235;
   padding: 20px;
@@ -285,7 +285,7 @@ table{
 
 }
 .comp{
-
+  
   text-align: center;
   font-size: 20px;
   margin-top: 20px;
@@ -300,6 +300,9 @@ table{
   box-sizing:border-box;
   border-radius: 50%;
   text-align: center;
+  padding-top: 5px;
+  width: 25px;
+  height: 25px;
   
 }
 .arrow-dark:hover{
