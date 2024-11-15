@@ -137,18 +137,7 @@ h3{
 .section-2{
    background-color:rgb(36, 38, 59);
    display:flex;
-  }
-/*.about-me{
-  display: flex;
-  justify-content:center;
-  align-items:center;
-  max-width: 1400px;
-  margin: 0 auto;
-  max-height: 900px;
-  margin-top: 100px;
-  padding-bottom: 150px;
 }
-*/
 
 .about-me-pictures{
   margin-left: 100px;
@@ -252,7 +241,6 @@ table{
 }
 .section-4{
   background-color:rgb(36, 38, 59);
-
 }
  .section-4-details{
   display: flex;
@@ -280,9 +268,54 @@ table{
 }
 .pictures-section-4{
   margin-top: 50px;
+  max-width: 1920px;
+  display: flex;
+  margin: 0 auto;
+  padding: 20px 0px;
+  justify-content: center; 
+  align-items: center;
 }
 .section-1-in-section-4{
   max-width: 100px;
   max-height: 300px;
+  background-color:#1F2235;
+  padding: 20px;
+}
+.section-2-in-section-4{
+  max-width: 100px;
+  max-height: 300px;
+  background-color:#1F2235;
+  padding: 20px;
+}
+.section-3-in-section-4{
+  max-width: 100px;
+  max-height: 300px;
+  background-color:#1F2235;
+  padding: 20px;
+}
+.section-4-in-section-4{
+  max-width: 100px;
+  max-height: 300px;
+  background-color:#1F2235;
+  padding: 20px;
+}
+.arrow-red{
+  background-color:#FE461C;
+  box-sizing:border-box;
+  border-radius: 10px;
+  padding-top: 10px;
+  box-shadow:0px 0px 2px 2px black;
+}
+.arrow-red:hover{
+  background-color:#1F2235;
+}
+.arrow-dark{
+  background-color:#24263B;
+  box-sizing:border-box;
+  border-radius: 10px;
+  padding-top: 10px;
+  box-shadow:0px 0px 2px 2px black;
+}
+.arrow-dark:hover{
   background-color:#1F2235;
 }
