@@ -271,7 +271,7 @@ table{
   max-width: 1920px;
   display: flex;
   margin: 0 auto;
-  padding: 20px 0px;
+  padding: 20px 20px;
   justify-content: center; 
   align-items: center;
 }
@@ -302,9 +302,9 @@ table{
 .arrow-red{
   background-color:#FE461C;
   box-sizing:border-box;
-  border-radius: 10px;
+  border-radius: 50%;
   padding-top: 10px;
-  box-shadow:0px 0px 2px 2px black;
+  display: flex;
 }
 .arrow-red:hover{
   background-color:#1F2235;
@@ -314,7 +314,6 @@ table{
   box-sizing:border-box;
   border-radius: 10px;
   padding-top: 10px;
-  box-shadow:0px 0px 2px 2px black;
 }
 .arrow-dark:hover{
   background-color:#1F2235;
