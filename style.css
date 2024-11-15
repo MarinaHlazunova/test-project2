@@ -276,11 +276,37 @@ table{
   align-items: center;
 }
 .section-1-in-section-4{
-  max-width: 100px;
-  max-height: 300px;
+  max-width: 250px;
+  max-height: auto;
   background-color:#1F2235;
   padding: 20px;
+  box-sizing:border-box;
+  border-radius:5px;
+
 }
+.comp{
+
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.comp1{
+  margin-top: 100px;
+  font-size: 16px;
+}
+
+.arrow-dark{
+  background-color:#24263B;
+  box-sizing:border-box;
+  border-radius: 50%;
+  text-align: center;
+  
+}
+.arrow-dark:hover{
+  background-color:#1F2235;
+}
+
+/*
 .section-2-in-section-4{
   max-width: 100px;
   max-height: 300px;
@@ -309,12 +335,5 @@ table{
 .arrow-red:hover{
   background-color:#1F2235;
 }
-.arrow-dark{
-  background-color:#24263B;
-  box-sizing:border-box;
-  border-radius: 10px;
-  padding-top: 10px;
-}
-.arrow-dark:hover{
-  background-color:#1F2235;
+
 }
