@@ -311,35 +311,46 @@ table{
 .arrow-dark:hover{
   background-color:#1F2235;
 }
-
-/*
-.section-2-in-section-4{
-  max-width: 100px;
-  max-height: 300px;
-  background-color:#1F2235;
-  padding: 20px;
-}
-.section-3-in-section-4{
-  max-width: 100px;
-  max-height: 300px;
-  background-color:#1F2235;
-  padding: 20px;
-}
-.section-4-in-section-4{
-  max-width: 100px;
-  max-height: 300px;
-  background-color:#1F2235;
-  padding: 20px;
-}
-.arrow-red{
+.arrow-orange{
   background-color:#FE461C;
   box-sizing:border-box;
   border-radius: 50%;
-  padding-top: 10px;
-  display: flex;
+  text-align: center;
+  padding-top: 13px;
+  width: 40px;
+  height: 40px;
+  box-shadow:0px 0px 2px 2px black;
+  margin-top: 20px;
 }
-.arrow-red:hover{
+.arrow-orange:hover{
   background-color:#1F2235;
 }
+.section-2-in-section-4{
+  max-width: 200px;
+  margin-left: 30px;
+  background-color:#1F2235;
+  padding: 20px;
+  box-sizing:border-box;
+  border-radius:5px;
+  justify-content: center;
+}
 
+.section-3-in-section-4{
+  max-width: 200px;
+  margin-left: 30px;
+  background-color:#1F2235;
+  padding: 20px;
+  box-sizing:border-box;
+  border-radius:5px;
+  justify-content: center;
+}
+
+.section-4-in-section-4{
+  max-width: 200px;
+  margin-left: 30px;
+  background-color:#1F2235;
+  padding: 20px;
+  box-sizing:border-box;
+  border-radius:5px;
+  justify-content: center;
 }
