@@ -168,7 +168,7 @@ h3{
 }
 .download-link-2{
   margin-top: 50px;
-  padding: 10px 50px;
+  padding: 14px 25px;
   border-radius: 5px 5px 5px 5px;
   background:#FE461C;
 }
@@ -176,9 +176,12 @@ h3{
   background:#24263B
 }
 
+th, td{
+  padding-top: 20px;
+}
 table{
   text-align:left;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 .one{
   padding-left: 20px;
@@ -227,6 +230,7 @@ table{
   text-align: center;
   margin-top: 50px;
 }
+
 .nav-list-2{
   text-align: center;
   margin-top: 40px;
@@ -419,17 +423,55 @@ table{
   padding-top: 30px;
   
 }
-.about-me-pictures-2{
+
+.skill-experience{
+  padding-top: 10px;
+}
+
+.skills{
+  margin-top: 50px;
+  width: 500px;
+}
+
+p{
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 500px;
+  margin: 10px 0px;
+}
+
+.skill-bar{
+  height: 12px;
+  background:#FFFFFF;
+  border-radius: 50px;
+}
+
+.skill-percentage{
+  height: 12px;
+  background:#FE461C;
+  position: relative;
+  border-radius:50px;
+  
+
+}
+
+.skill-percentage::before{
+  content:attr(a);
+  position: absolute;
+  padding: 4px 6px;
+  font-size: 18px;
+  border-radius:50px;
+  top: -30px;
+  right: 0;
+  transform: translateX(50%);
+}
+
+
+/*.about-me-pictures-2{
   margin-left: 50px;
   display: flex;
   align-items:center;
 }
-
-
-
-/*
-.item{
-  display: flex;
-}
   */
+
 
