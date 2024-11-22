@@ -371,7 +371,9 @@ table{
   flex-direction: column;
   justify-content: center;
 }
-
+.section-5-details{
+  display: flex;
+}
 
 .button-section-5{
   margin-top: 50px;
@@ -463,6 +465,10 @@ p{
   top: -30px;
   right: 0;
   transform: translateX(50%);
+}
+.about-me-pictures-2{
+  margin-left: 50px;
+  display: flex;
 }
 
 .section-6{
