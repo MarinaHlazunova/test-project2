@@ -481,7 +481,7 @@ p{
   display: flex;
   flex-direction: column;
   align-items:center;
-  margin-top: 50px;
+  margin-top: 100px;
   text-align: center;
   justify-content: center;
  }
@@ -502,7 +502,7 @@ p{
 }
 
 .our-work-services{
-  margin-top: 20px;
+  margin-top: 40px;
   text-align: center;
 }
 .pictures-section-6{
@@ -520,6 +520,17 @@ p{
   box-sizing:border-box;
   border-radius:5px;
   justify-content: center;
+}
+.section-1-in-section-6:before{
+  position:absolute;
+  content:'';
+  width: 0;
+  height: 0;
+  border-top:20px solid #24263B;
+  border-right: 20px transparent solid;
+  border-left: 20px transparent solid;
+  bottom: -20px;
+  right: 95px;
 }
 .section-6_text{
   display: flex;
@@ -578,9 +589,46 @@ hr{
   padding-top: 13px;
   width: 50px;
   height: 50px;
-  margin-top: 70px;
+  margin-top: 45px;
   margin-left: 30px;
 }
 .circle-btn:hover{
   background-color:#1F2235;
 }
+.section-7{
+  display: flex;
+  margin-top: 50px;
+  margin-left: 50px;
+  align-items:center;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-7-details{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+}
+.--3-in-1_block_sec-7--{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+}
+.block-1-sec-7{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+}
+
+.square{
+  margin-top: 30px;
+  box-sizing:border-box;
+  width: 420px;
+  height: 300px;
+  background-color:rgba(217, 217, 217, 1);
+  border-radius:5px;
+  display: flex;
+}
+
