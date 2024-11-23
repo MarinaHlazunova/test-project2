@@ -482,6 +482,7 @@ p{
  }
  
  .button-section-6{
+  width: 100px;
   justify-content: center;
   display: flex;
   margin-top: 50px;
@@ -511,7 +512,7 @@ p{
   margin-left: 30px;
   max-width: 300px;
   background-color:#1F2235;
-  padding: 20px;
+  padding: 20px 40px;
   box-sizing:border-box;
   border-radius:5px;
   justify-content: center;
@@ -526,14 +527,14 @@ p{
   margin-top: 10px;
 }
 .img6{
-  padding-left: 90px;
+  padding-left: 55px;
 }
 .comp1{
   font-size: 16px;
   margin-top: 30px;
 }
 hr{
-  width: 250px;
+  width: 220px;
   margin-top: 15px;
 }
 .comp2{
@@ -561,12 +562,10 @@ hr{
   justify-content: center;
 }*/
 .dark-arrow-6{
-  margin-top: -45;
-  margin-left: 30px;
-  display: flex;
-  position: absolute;
-  z-index: -1;
-  
+ margin-top: 150px;
+ margin-left: -40px;
+ position: absolute;
+ z-index: 1px; 
 }
 .circle-btn{
   background-color:#FFFFFF;
@@ -576,7 +575,7 @@ hr{
   padding-top: 13px;
   width: 50px;
   height: 50px;
-  margin-top: 20px;
+  margin-top: 70px;
   margin-left: 30px;
 }
 .circle-btn:hover{
