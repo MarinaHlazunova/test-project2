@@ -508,6 +508,7 @@ p{
   align-items: center;
 }
 .section-1-in-section-6{
+  margin-left: 30px;
   max-width: 300px;
   background-color:#1F2235;
   padding: 20px;
@@ -539,7 +540,7 @@ hr{
   font-size: 16px;
   margin-top: 15px;
 }
-
+/*
 .section-2-in-section-6{
   max-width: 300px;
   margin-left: 30px;
@@ -558,6 +559,14 @@ hr{
   box-sizing:border-box;
   border-radius:5px;
   justify-content: center;
+}*/
+.dark-arrow-6{
+  margin-top: -45;
+  margin-left: 30px;
+  display: flex;
+  position: absolute;
+  z-index: -1;
+  
 }
 .circle-btn{
   background-color:#FFFFFF;
@@ -568,6 +577,7 @@ hr{
   width: 50px;
   height: 50px;
   margin-top: 20px;
+  margin-left: 30px;
 }
 .circle-btn:hover{
   background-color:#1F2235;
