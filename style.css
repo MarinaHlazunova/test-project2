@@ -139,7 +139,6 @@ h3{
    display:flex;
    justify-content: center;
    align-items:center;
-   width: 1440px;
 }
 .about-me-pictures{
   margin-top: 100px ;
@@ -250,7 +249,6 @@ table{
 }
 .section-4{
   background-color:rgb(36, 38, 59);
-  width: 1440px;
 }
  .section-4-details{
   display: flex;
@@ -598,14 +596,17 @@ hr{
   background-color:#1F2235;
 }
 .section-7{
-  
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+  justify-content: center;
 }
 .section-7-details{
   display: flex;
   justify-content: center;
   align-items:center;
   flex-direction: column;
-  padding: 60px;
+  padding: 30px;
 }
 .sec-7-3-in-1-block{
   display: flex;
@@ -713,7 +714,7 @@ hr{
 }
 
 .section-9{
-
+  background-color: #1F2235;
 }
 .section-9-details{
   display: flex;
