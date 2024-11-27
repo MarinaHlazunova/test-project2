@@ -689,7 +689,6 @@ hr{
   position: relative ;
   width: 400px;
   height: 40px;
-  text-align: center;
   align-items:center;
   justify-content: center;
   display: flex;
@@ -722,4 +721,46 @@ hr{
   align-items:center;
   flex-direction: column;
   padding: 30px;
+}
+.sec-9-2_side{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.phone-namber{
+  box-sizing:border-box;
+  border-radius:8px;
+  background-color:rgba(36, 38, 59, 1);
+  border:3px solid rgba(255, 255, 255, 0.2);
+  align-items:center;
+  padding-left: 35px;
+  display: flex;
+  margin-top: 30px;
+  width: 368px;
+  height: 117px;
+}
+.phone-namber:hover{
+  border:3px solid #1F2235;
+}
+.address{
+  font-size: 20px;
+}
+.address-btn{
+  background-color:#24263B;
+  box-sizing:border-box;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 23px;
+  width: 70px;
+  height: 70px;
+  box-shadow:0px 0px 2px 2px black;
+  }
+.address-btn:hover{
+    background-color:#1F2235;
+  }
+.ad{
+  margin-left: 20px;
+}
+.form{
+  display: flex;
 }
