@@ -724,8 +724,8 @@ hr{
 }
 .sec-9-2_side{
   display: flex;
-  justify-content: center;
-  align-items:center;
+  
+  
 }
 .phone-namber{
   box-sizing:border-box;
@@ -756,11 +756,33 @@ hr{
   box-shadow:0px 0px 2px 2px black;
   }
 .address-btn:hover{
-    background-color:#1F2235;
+  background-color:#1F2235;
   }
 .ad{
   margin-left: 20px;
 }
-.form{
+.sec-9-left_side{
+
+}
+.sec-9-right_side{
+  padding-left: 50px;
+}
+
+input{
+  
+  margin-top: 20px;
+  color:rgba(112, 113, 123, 1);
+  background-color:rgba(36, 38, 59, 1);
+  border-radius:6px;
+  width: 335px;
+  height: 56px;
+  padding: 10px;
+  box-sizing:border-box;
+  border:3px solid rgba(255 255 255 0.2)
+}
+
+.form2{
+  width: 700px;
+  height: 210px;
   display: flex;
 }
