@@ -722,7 +722,7 @@ hr{
   flex-direction: column;
   padding: 30px;
 }
-.sec-9-2_side{
+.sec-9-2_sides{
   display: flex;
   
   
@@ -743,7 +743,7 @@ hr{
   border:3px solid #1F2235;
 }
 .address{
-  font-size: 20px;
+  font-size: 26px;
 }
 .address-btn{
   background-color:#24263B;
@@ -765,12 +765,13 @@ hr{
 
 }
 .sec-9-right_side{
-  padding-left: 50px;
+  padding-left: 80px;
+  padding-top: 30px;
 }
 
 input{
   
-  margin-top: 20px;
+  margin-top: 30px;
   color:rgba(112, 113, 123, 1);
   background-color:rgba(36, 38, 59, 1);
   border-radius:6px;
@@ -785,4 +786,19 @@ input{
   width: 700px;
   height: 210px;
   display: flex;
+}
+.email{
+  margin-left: 25px;
+}
+.maps{
+  width: 1169;
+  height: 550;
+  margin-top: 50px;
+  overflow: hidden;
+}
+.maps:hover img{
+  transform: scale(1:1);
+}
+img {
+  transition: transform 0.26s;
 }
