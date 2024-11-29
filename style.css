@@ -761,9 +761,6 @@ hr{
 .ad{
   margin-left: 20px;
 }
-.sec-9-left_side{
-
-}
 .sec-9-right_side{
   padding-left: 80px;
   padding-top: 30px;
@@ -797,7 +794,7 @@ input{
   overflow: hidden;
 }
 .maps:hover img{
-  transform: scale(1:1);
+  transform: scale(1 1);
 }
 img {
   transition: transform 0.26s;
