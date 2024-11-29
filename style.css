@@ -779,10 +779,17 @@ input{
   border:3px solid rgba(255 255 255 0.2)
 }
 
-.form2{
+.textarea{
+  
+  margin-top: 30px;
+  color:rgb(255, 255, 255);
+  padding: 5px;
+  background-color:rgba(36, 38, 59, 1);
+  border-radius:6px;
+  box-sizing:border-box;
+  border:3px solid rgba(255 255 255 0.2);
   width: 700px;
   height: 210px;
-  display: flex;
 }
 .email{
   margin-left: 25px;
@@ -794,12 +801,43 @@ input{
   margin-top: 50px;
   overflow: hidden;
 }
-.maps:hover img{
-  transform: scale(1 1);
+.lightbox-trigger {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  cursor: pointer;
 }
-img {
-  transition: transform 0.26s;
+
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
 }
+
+.lightbox-img {
+  max-width: 90%;
+  max-height: 80%;
+}
+
+.lightbox:target {
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
 
 .section-10{
   background-color:#24263B;
