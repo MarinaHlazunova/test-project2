@@ -788,6 +788,7 @@ input{
   margin-left: 25px;
 }
 .maps{
+  padding: 20px;
   width: 1169;
   height: 550;
   margin-top: 50px;
@@ -798,4 +799,12 @@ input{
 }
 img {
   transition: transform 0.26s;
+}
+
+.section-10{
+  background-color:#24263B;
+  height: 90px;
+  align-items:center;
+  justify-content: center;
+  display: flex;
 }
